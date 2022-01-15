@@ -20,6 +20,10 @@ h2{
 .influencer-half{
     width: 50%;
 }
+.influencer-half:hover .influencer-image{
+    transform: scale(1.5) skew(12deg) rotate(-15deg);
+    transition: transform 2s ease-in-out;
+}
 .influencer-half h1{
     font-size: 52px;
     font-weight: bold;
@@ -46,10 +50,10 @@ h2{
 
 /* Popular Collection Style */
 
-.collection-container{
+/* .collection-container{
     width: 1047px;
     height: 1662px;
-}
+} */
 .collections{
     margin-left: 200px;
     display: grid;
@@ -100,3 +104,74 @@ h2{
     font-size: 14px;
     color: #787885;
 }
+.bottom-button{
+    margin-top: 10px;
+    left: 1240px;
+    position: absolute;
+}
+.bottom-button a{
+    text-decoration: none;
+    color: #EE8CAF;
+}
+
+/* footer style */
+footer{
+    margin-top: 100px;
+    background-color: #0A0826;
+    padding: 20px 0;
+}
+.footer-title{
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.footer-info{
+    font-weight: bold;
+    font-size: 14px;
+    color: #D9DBE1;
+    text-align: center;
+    padding-left: 110px;
+}
+#footer-icon{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+}
+#footer-icon i{
+    padding-right: 16px;
+}
+
+/* Extra section style */
+.extra-section{
+    margin-top: 80px;
+    height: 450px;
+    width: 100%;
+    background-color:#1F1F1F;
+}
+.extra-section h1{
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+video{
+    padding-left:470px;
+}
+.elon-bio{
+    margin:20px;
+}
+.elon-bio a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding:7px 15px;
+    margin-right: 10px;
+}
+.extra-section p{
+    color: whitesmoke;
+    padding: 13px;
+}
+
